@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <title>ToDoList</title>
+</head>
+<body>
+    <header>
+        <h1>ToDo приложение</h1>
+    </header>
+    <main>
+        <!-- <div id="emptyList">Список дел пуст</div> -->
+
+        <ul id="tasksList" class="'list-group">
+
+            <!-- <li class="list-group-item task">
+                <span class="task-title">Купить молоко</span>
+                <div class="task-item__buttons">
+                    <button type="button" class="button-action" data-action="done">Готово</button>
+                    <button type="button" class="button-action" data-action="delete">Удалить</button>
+                </div>
+            </li> -->
+            
+        </ul>
+
+        <div class="card">
+            <div class="card-header">Добавить новую задачу</div>
+            <div class="card-body">
+                <form id="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="taskInput" placeholder="Текст задачи">
+                    </div>
+                    <button type="submit" class="button">Добавить задачу</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="copyright">Вася продкашн</div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
